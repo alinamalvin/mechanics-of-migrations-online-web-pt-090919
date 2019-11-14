@@ -9,5 +9,5 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   end
 end
 
-class Artist
+class Artist < ActiveRecord::Base
 end
